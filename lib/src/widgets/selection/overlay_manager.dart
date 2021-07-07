@@ -80,11 +80,11 @@ mixin SelectionOverlayManagerMixin<T extends StatefulWidget>
     return true;
   }
 
-  @override
-  void hideToolbar() {
-    toolbarVisible = false;
-    _selectionOverlay?.hideToolbar();
-  }
+  // @override
+  // void hideToolbar() {
+  //   toolbarVisible = false;
+  //   selectionOverlay?.hideToolbar();
+  // }
 
   void hide() {
     toolbarVisible = false;
